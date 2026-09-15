@@ -1,0 +1,16 @@
+{
+  "name": "teacher-student-registration",
+  "version": "1.0.0",
+  "description": "Express.js + MongoDB (Mongoose) app for teacher and student registration with validation and bcrypt password hashing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.7.0",
+    "mongosh": "^2.11.1"
+  }
+}
